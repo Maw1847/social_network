@@ -18,6 +18,6 @@ const port = process.env.port;
 app.use('/', routes)
 
 app.listen(port, ()=> {
-    console.log(`le serveur est lancé sur le port ${port}`);
+    console.log(`le serveur est en écoute sur le PORT ${port}`);
 })
 
